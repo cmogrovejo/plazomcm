@@ -1,0 +1,32 @@
+{
+  "name": "platzomcm",
+  "version": "0.1.0",
+  "description": "traductor de idioma platzom",
+  "main": "dist/src/platzomcm.js",
+  "scripts": {
+    "build": "babel src/platzomcm.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmogrovejo/plazomcm.git"
+  },
+  "keywords": [
+    "platzon",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Carlos Mogrovejo <cmogrovejo@gmail.com> (http://twitter.com/cmogrovejo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmogrovejo/plazomcm/issues"
+  },
+  "homepage": "https://github.com/cmogrovejo/plazomcm#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
